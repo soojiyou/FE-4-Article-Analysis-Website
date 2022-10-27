@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Test</title>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="">
+            Logo
+        </div>
+        <div class="">
+            navigation
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <form class="" onsubmit="return Client.handleSubmit(event)">
+                <input id="name" type="text" name="input" value=""
+                    placeholder="please type article URL to evaluate with nlp">
+                <input id="submitbutton" type="submit" name="" value="submit"
+                    onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
+            </form>
+        </section>
+
+        <section id="resultSection">
+            <h1 class="result">FORM RESULTS:</h1>
+            <div id="entryHolder">
+                <div id="agreement"></div>
+                <div id="confidence"></div>
+                <div id="irony"></div>
+                <div id="model"></div>
+                <div id="polarity"></div>
+                <div id="subjectivity"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>This is a footer</p>
+    </footer>
+
+</body>
+
+</html>
