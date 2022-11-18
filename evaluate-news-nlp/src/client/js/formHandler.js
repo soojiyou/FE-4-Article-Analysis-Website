@@ -1,32 +1,11 @@
-// function handleSubmit(event) {
-//     event.preventDefault()
 
-//     // check what text was put into the form field
-//     let formText = document.getElementById('name').value
-//     checkForName(formText)
-
-//     console.log("::: Form Submitted :::")
-//     fetch('http://localhost:8080/test')
-//         .then(res => res.json())
-//         .then(function (res) {
-//             document.getElementById('results').innerHTML = res.message
-//         })
-// }
-
-
-
-
-
-function handleSubmit(event) {
-    event.preventDefault();
-
-    // check what text was put into the form field (id:name)
+const requestURL = async () => {
     let formText = document.getElementById('name').value;
     let requestbody = {
         url: formText
     };
-    if (Client.validUrlChecker(formText)) {
-        fetch('api', {
+    try {
+        const data = await fetch('api', {
             method: 'POST',
             credentials: 'same-origin',
             mode: 'cors',
@@ -36,7 +15,26 @@ function handleSubmit(event) {
             body: JSON.stringify(requestbody)
         })
             .then(res => res.json())
-            .then(function (result) {
+            .then(data => data)
+        return data
+        //console.log(res)
+
+    } catch (e) {
+        console.log("Error", e.message);
+    }
+};
+
+function handleSubmit(event) {
+    event.preventDefault();
+
+    // check what text was put into the form field (id:name)
+    let formText = document.getElementById('name').value;
+
+    let fetchrequestURL = requestURL;
+    let resurl = Client.validUrlChecker(formText);
+    if (resurl) {
+        fetchrequestURL(formText)
+            .then(function docresult(result) {
                 document.querySelector('#agreement').innerHTML = `Agreement: ${result.agreement}`;
                 document.querySelector('#confidence').innerHTML = `Confidence: ${result.confidence}`;
                 document.querySelector('#irony').innerHTML = `Irony:${result.irony}`;
@@ -50,6 +48,4 @@ function handleSubmit(event) {
     }
 }
 
-
-
-export { handleSubmit };
+export { handleSubmit, requestURL };
