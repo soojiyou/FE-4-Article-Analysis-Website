@@ -9,7 +9,12 @@ function checkForName(inputText) {
     ]
 
     if (names.includes(inputText)) {
-        alert("Welcome, Captain!")
+        //alert("Welcome, Captain!");
+        console.log("Valid name");
+        return true;
+    } else {
+        console.log("Invalid name");
+        return false;
     }
 }
 export { checkForName }
@@ -30,6 +35,8 @@ function validUrlChecker(str) {
         console.log("Invalid URL");
         return false;
     } else {
+        console.log("Valid URL");
+        //return true;
         return urlpattern.test(str);
     }
 }
