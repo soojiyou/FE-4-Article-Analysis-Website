@@ -5,6 +5,7 @@ const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')
 // Require the Aylien npm package
 
+const PORT = process.env.PORT || 8080;
 const app = express()
 const dotenv = require('dotenv');
 dotenv.config();
@@ -15,8 +16,9 @@ console.log(`Your API key is ${process.env.API_KEY}`);
 
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const fetch = require('node-fetch');
-// let fetch = await import('node-fetch');
+//const fetch = require('node-fetch');
+const fetch = (...args) =>
+    import('node-fetch').then(({ default: fetch }) => fetch(...args));
 
 
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -45,8 +47,8 @@ app.get('/', function (req, res) {
 // });
 
 // designates what port the app will listen to for incoming requests
-app.listen(8080, function () {
-    console.log('Example app listening on port 8080!')
+app.listen(PORT, function () {
+    console.log(`Example app listening on port ${PORT}!`)
 });
 
 app.get('/test', function (req, res) {
