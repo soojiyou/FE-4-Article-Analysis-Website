@@ -1,0 +1,5 @@
+{
+    "testEnvironment": "jsdom",
+    "bail": 1,
+    "verbose": true
+}
