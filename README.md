@@ -2,7 +2,7 @@
 
 We will build a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. NLP is the ability of an application to understand the human language, written or oral.
 
-## Deployed website (Demo)
+## Demo Website (Heroku)
 https://fe-article-analysis-website.herokuapp.com/
 
 ## Table of Contents
