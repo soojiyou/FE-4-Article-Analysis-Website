@@ -4,8 +4,8 @@ We will build a web tool that allows users to run Natural Language Processing (N
 
 ## Demo Website (Render, Heroku)
 https://fa-article-analysis-website.onrender.com/
-https://fe-article-analysis-website.herokuapp.com/
 
+https://fa-article-analysis-website.herokuapp.com/
 ## Table of Contents
 
 * [Project-Prerequisites](#project-prerequisites)
