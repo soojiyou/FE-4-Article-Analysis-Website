@@ -1,4 +1,4 @@
-import { checkForName, validUrlChecker } from "../js/nameChecker"
+import { checkForName, validUrlChecker } from "../client/js/nameChecker"
 
 
 describe('Testing: url pattern', () => {

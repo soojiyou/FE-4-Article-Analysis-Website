@@ -21,27 +21,36 @@
     </header>
 
     <main>
-        <section>
-            <form class="" onsubmit="return Client.handleSubmit(event)">
-                <input id="name" type="text" name="input" value=""
-                    placeholder="please type article URL to evaluate with nlp">
-                <input id="submitbutton" type="submit" name="" value="submit"
-                    onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
-            </form>
-        </section>
+        <div class="container">
+            <div class="maintitle">
+                <h1>Natural Language Processing Web Tool</h1>
 
-        <section id="resultSection">
-            <h1 class="result">FORM RESULTS:</h1>
-            <div id="entryHolder">
-                <div id="agreement"></div>
-                <div id="confidence"></div>
-                <div id="irony"></div>
-                <div id="model"></div>
-                <div id="polarity"></div>
-                <div id="subjectivity"></div>
             </div>
-        </section>
 
+            <div class="sectioncontainer">
+                <section>
+                    <form class="" onsubmit="return Client.handleSubmit(event)">
+                        <input id="name" type="text" name="input" value=""
+                            placeholder="Please Type Article URL to Evaluate with NLP">
+
+                        <input id="submitbutton" type="submit" name="SUBMIT" value="SUBMIT"
+                            onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
+                    </form>
+                </section>
+
+                <section id="resultSection">
+                    <h1 class="result">FORM RESULTS:</h1>
+                    <div id="entryHolder">
+                        <div id="agreement"></div>
+                        <div id="confidence"></div>
+                        <div id="irony"></div>
+                        <div id="model"></div>
+                        <div id="polarity"></div>
+                        <div id="subjectivity"></div>
+                    </div>
+                </section>
+            </div>
+        </div>
     </main>
 
     <footer>

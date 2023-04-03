@@ -1,6 +1,5 @@
-import { handleSubmit, requestURL } from "../js/formHandler";
-import { validUrlChecker } from "../js/nameChecker";
-import fetchMock from 'fetch-mock';
+import { handleSubmit, requestURL } from "../client/js/formHandler";
+import { validUrlChecker } from "../client/js/nameChecker";
 
 
 const testitems1 = {
