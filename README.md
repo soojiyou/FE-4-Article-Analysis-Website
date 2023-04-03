@@ -10,11 +10,6 @@ This app is a web tool that allows users to run Natural Language Processing (NLP
 https://fa-article-analysis-website.onrender.com/
 
 https://fa-article-analysis-website.herokuapp.com/
-## Table of Contents
-
-* [Project-Prerequisites](#project-prerequisites)
-* [Steps](#steps)
-* [Trouble](#trouble)
 
 ## Project-Prerequisites
 
