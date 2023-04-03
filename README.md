@@ -31,6 +31,8 @@ Getting Started - Setting up the Project
 * npm i -D mini-css-extract-plugin
 * npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
 
+npm start
+
 
 
 ## Trouble
