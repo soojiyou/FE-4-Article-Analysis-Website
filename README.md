@@ -61,6 +61,11 @@ Install Requirements with the following command:
 npm install
 ```
 
+Unit Testing using Jest Framework
+```bash
+npm run test
+```
+
 ### Running Local Tests
 ```bash
 npm start
@@ -75,4 +80,16 @@ Use the codes below to update loaders and plugins and write on package.json file
 * npx npm-check-updates -u
 
 ## Features
+
+### User
+The user can:
+1. request to run Natural Language Processing (NLP) on articles or blogs found on other websites by type URL.
+
+![image](https://user-images.githubusercontent.com/79179847/229664021-dbcb6bd9-f547-4b22-b3bf-ed08d4f5e5c7.png)
+
+2. get 6 information (Agreement, Confidence, Irony, Model, Polarity, Subjectivity)
+![image](https://user-images.githubusercontent.com/79179847/229663953-a7f9963c-95ff-4bf1-aadf-fa4ab419b089.png)
+
+
+
 
