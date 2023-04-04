@@ -3,81 +3,72 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Cormorant Garamond', serif;
-    // background-color: rgb(0, 0, 0);
     background-color: rgb(255, 238, 209);
+}
 
-    main {
-        flex: 2;
+main {
+    flex: 2;
+}
 
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-
-
-            .maintitle {
-                width: 100%;
-                background-image: url("https://media.cntraveler.com/photos/5a7741d04332805bf105f668/16:9/w_2560,c_limit/Morgan-Library-and-Museum__2018_9.-East-Room-2.jpg");
-                width: 100%;
-                height: 300px;
-                background-size: cover;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 
 
-                h1 {
-                    text-align: center;
-                    color: rgb(255, 238, 209);
-                    font-size: 50px;
+    .maintitle {
+        width: 100%;
+        background-image: url("https://media.cntraveler.com/photos/5a7741d04332805bf105f668/16:9/w_2560,c_limit/Morgan-Library-and-Museum__2018_9.-East-Room-2.jpg");
+        height: 300px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
-                }
+        h1 {
+            text-align: center;
+            color: rgb(255, 238, 209);
+            font-size: 50px;
+        }
+    }
 
-            }
+    .sectioncontainer {
+        background-color: rgba(68, 62, 55, 0.207);
+        width: 80%;
+        max-width: 800px;
+        border: 2px solid #545454;
+        margin: 20px;
+        padding: 20px 40px;
+        border-radius: 3px;
 
-            .sectioncontainer {
-                background-color: rgba(68, 62, 55, 0.207);
-                width: 50%;
-                border: 1px solid black;
-                margin: 20px;
-                padding: 20px 40px;
-                border-radius: 3px;
-
-                section {
-                    max-width: 800px;
-                    margin: 50px auto;
-                    background-color: rgba(68, 62, 55, 0.207);
-                }
-
-                #resultSection {
-                    max-width: 800px;
-                    margin: 50px auto;
-                    border: 1px solid #545454;
-                    border-radius: 3px;
-                    padding: 40px;
-
-                    h1 {
-                        padding: 10px 0;
-                        font-family: 'Ibarra Real Nova', serif;
-                        font-weight: bold;
-                        font-size: 18px;
-                        // text-decoration: 1px #545454 underline;
-                    }
-
-                    div {
-                        padding: 5px 0;
-                        font-family: 'Ibarra Real Nova', serif;
-                    }
-
-                }
-            }
-
-
-
+        section {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: rgba(68, 62, 55, 0.207);
+            border: 2px solid #545454;
+            border-radius: 3px;
         }
 
+        #resultSection {
+            max-width: 800px;
+            margin: 50px auto;
+            // border: 2px solid #545454;
+            padding: 40px;
 
+            h1 {
+                padding: 10px 0;
+                font-family: 'Ibarra Real Nova', serif;
+                font-weight: bold;
+                font-size: 18px;
+            }
+
+            div {
+                padding: 5px 0;
+                font-family: 'Ibarra Real Nova', serif;
+            }
+        }
     }
+
 }
