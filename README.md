@@ -85,9 +85,11 @@ Use the codes below to update loaders and plugins and write on package.json file
 The user can:
 1. request to run Natural Language Processing (NLP) on articles or blogs found on other websites by type URL.
 
-![image](https://user-images.githubusercontent.com/79179847/229664021-dbcb6bd9-f547-4b22-b3bf-ed08d4f5e5c7.png)
+<img src="https://user-images.githubusercontent.com/79179847/229664021-dbcb6bd9-f547-4b22-b3bf-ed08d4f5e5c7.png" alt="Image Description" width="500" >
+
 
 2. get 6 information (Agreement, Confidence, Irony, Model, Polarity, Subjectivity)
+
 ![image](https://user-images.githubusercontent.com/79179847/229663953-a7f9963c-95ff-4bf1-aadf-fa4ab419b089.png)
 
 
