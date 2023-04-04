@@ -1,15 +1,15 @@
-# Project Introduction
+# Project 4 - Evaluate a News Article with Natural Language Processing (Udacity - Frontend Web Developer)
 
-We will build a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. NLP is the ability of an application to understand the human language, written or oral.
+## Goal
+ The goal of this project is to experience with hands-on experience with the tools and environment commonly used in a front-end role. It involves building a web tool that utilizes Natural Language Processing (NLP) to analyze articles or blogs found on other websites, using tools such as Node, Express, Webpack, and Service Worker. 
 
-## Demo Website (Heroku)
-https://fe-article-analysis-website.herokuapp.com/
+## Project Introduction
+This app is a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. NLP is the ability of an application to understand the human language, written or oral.
 
-## Table of Contents
+## Demo Website (Render, Heroku)
+https://fa-article-analysis-website.onrender.com/
 
-* [Project-Prerequisites](#project-prerequisites)
-* [Steps](#steps)
-* [Trouble](#trouble)
+https://fa-article-analysis-website.herokuapp.com/
 
 ## Project-Prerequisites
 
