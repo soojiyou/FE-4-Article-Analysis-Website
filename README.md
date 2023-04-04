@@ -19,26 +19,60 @@ https://fa-article-analysis-website.herokuapp.com/
 4. External script - Service Worker
 5. External API - MeaningCloud API
 
-## Steps
+## Getting Started
 
-Getting Started - Setting up the Project
-* cd <project directory>
-* npm install
-* npm i -D @babel/core @babel/preset-env babel-loader
-* npm i -D style-loader node-sass css-loader sass-loader
-* npm i -D clean-webpack-plugin
-* npm i -D html-webpack-plugin
-* npm i -D mini-css-extract-plugin
-* npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
+Requirements: 
+```bash
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "jest-fetch-mock": "^3.0.3",
+    "node-fetch": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/plugin-transform-modules-commonjs": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "babel-jest": "^29.3.1",
+    "babel-loader": "^9.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.2.2",
+    "jest-environment-jsdom": "^29.3.1",
+    "mini-css-extract-plugin": "^2.6.1",
+    "node-sass": "^8.0.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack-dev-server": "^4.11.1",
+    "workbox-webpack-plugin": "^6.5.4"
+  }
+  ```
+Install Requirements with the following command:
+```bash
+npm install
+```
 
+### Running Local Tests
+```bash
 npm start
+```
 
 
-
-## Trouble
+### Trouble
 
 If you can install the loaders and plugins above, please check version and update.
 Use the codes below to update loaders and plugins and write on package.json file.
 * npx npm-check-updates
 * npx npm-check-updates -u
+
+## Features
 
