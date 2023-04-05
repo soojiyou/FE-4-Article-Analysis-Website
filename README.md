@@ -1,4 +1,4 @@
-# Project 4 - Evaluate a News Article with Natural Language Processing (Udacity - Frontend Web Developer)
+# Frontend Project 4 - Evaluate a News Article with Natural Language Processing (Udacity - Frontend Web Developer)
 
 ## Demo Website (Render, Heroku)
 https://fa-article-analysis-website.onrender.com/
