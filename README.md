@@ -72,9 +72,19 @@ Unit Testing using Jest Framework
 npm run test
 ```
 
-### Running Local Tests
+Start application with the following command:
 ```bash
 npm start
+```
+
+Build dev side
+```bash
+npm run build-dev
+```
+
+Build prod side
+```bash
+npm run build-prod
 ```
 
 
