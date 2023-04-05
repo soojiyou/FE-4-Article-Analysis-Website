@@ -28,65 +28,22 @@ MeaningCloud API - External API
 ## Getting Started
 
 Requirements: 
-```bash
-  "dependencies": {
-    "body-parser": "^1.20.0",
-    "cors": "^2.8.5",
-    "css-minimizer-webpack-plugin": "^5.0.0",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.1",
-    "jest-fetch-mock": "^3.0.3",
-    "node-fetch": "^3.3.1",
-    "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0",
-    "webpack-merge": "^5.8.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.19.6",
-    "@babel/plugin-transform-modules-commonjs": "^7.19.6",
-    "@babel/preset-env": "^7.19.4",
-    "babel-jest": "^29.3.1",
-    "babel-loader": "^9.0.0",
-    "clean-webpack-plugin": "^4.0.0",
-    "css-loader": "^6.7.1",
-    "html-webpack-plugin": "^5.5.0",
-    "jest": "^29.2.2",
-    "jest-environment-jsdom": "^29.3.1",
-    "mini-css-extract-plugin": "^2.6.1",
-    "node-sass": "^8.0.0",
-    "sass": "^1.55.0",
-    "sass-loader": "^13.1.0",
-    "style-loader": "^3.3.1",
-    "terser-webpack-plugin": "^5.3.6",
-    "webpack-dev-server": "^4.11.1",
-    "workbox-webpack-plugin": "^6.5.4"
-  }
-  ```
+
+Available to check in package.json
+
+
 Install Requirements with the following command:
-```bash
-npm install
-```
+``` bash
+`npm install` (to install all required packages)
 
-Unit Testing using Jest Framework
-```bash
-npm run test
-```
+`npm run test` (unit testing using Jest Framework)
 
-Start application with the following command:
-```bash
-npm start
-```
+`npm run build-dev` (build dev side)
 
-Build dev side
-```bash
-npm run build-dev
-```
+`npm run build-prod` (build prod side)
 
-Build prod side
-```bash
-npm run build-prod
+`npm start` (start after build)
 ```
-
 
 ### Trouble
 
