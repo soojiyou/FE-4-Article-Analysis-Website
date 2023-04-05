@@ -32,7 +32,7 @@ Requirements:
 Available to check in package.json
 
 
-Install Requirements with the following command:
+Install Requirements and run with the following command:
 ``` bash
 `npm install` (to install all required packages)
 
