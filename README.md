@@ -1,23 +1,29 @@
 # Project 4 - Evaluate a News Article with Natural Language Processing (Udacity - Frontend Web Developer)
 
-## Goal
- The goal of this project is to experience with hands-on experience with the tools and environment commonly used in a front-end role. It involves building a web tool that utilizes Natural Language Processing (NLP) to analyze articles or blogs found on other websites, using tools such as Node, Express, Webpack, and Service Worker. 
-
-## Project Introduction
-This app is a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. NLP is the ability of an application to understand the human language, written or oral.
-
 ## Demo Website (Render, Heroku)
 https://fa-article-analysis-website.onrender.com/
 
 https://fa-article-analysis-website.herokuapp.com/
 
-## Project-Prerequisites
+## Goal
+ The goal of this project is to experience with hands-on experience with the tools and environment commonly used in a front-end role. It involves building a web tool that utilizes Natural Language Processing (NLP) to analyze articles or blogs found on other websites, using tools such as Node, Express, Webpack, and Service Worker. 
 
-1. Webserver - Node
-2. Web application framework for routing - Express
-3. Build tool - Webpack. Using webpack, we will set up the app to have dev and prod environments, each with their own set of tools and commands.
-4. External script - Service Worker
-5. External API - MeaningCloud API
+## Introduction
+This app is a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. NLP is the ability of an application to understand the human language, written or oral.
+
+### Technologies Used
+
+Node.js - Server-side JavaScript runtime environment
+
+Express - Server-side web application framework for Node.js
+
+Webpack - Build tool, with separate configurations for development and production environments
+
+Jest - Test the routes and other JavaScript functions
+
+Service Worker - External script
+
+MeaningCloud API - External API
 
 ## Getting Started
 
